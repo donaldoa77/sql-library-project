@@ -4,8 +4,12 @@ Added library management SQL project
 Library Management System - SQL Project
 A simple database project for managing library books, authors, borrowers, and loans using fundamental SQL operations.
 Project Overview
+
 This project demonstrates basic SQL skills including table creation, data insertion, and querying. It simulates a small library system where books can be tracked along with their availability and borrowing information.
+
 Database Structure
+
+
 Tables Created:
 
 books - Store book information (title, author_id, ISBN, publication year, available copies)
@@ -14,10 +18,13 @@ borrowers - Store library member information (name, email, phone, membership dat
 loans - Track borrowing records (book_id, borrower_id, loan date, return date)
 
 Files Description
+
 create table.sql
 Contains all the CREATE TABLE statements to set up the database structure with appropriate data types and constraints.
+
 data insertion.sql
 Contains INSERT statements to populate the tables with sample data for testing queries.
+
 queries.sql
 Contains various SELECT queries demonstrating:
 
