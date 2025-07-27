@@ -3,6 +3,7 @@ Added library management SQL project
 
 Library Management System - SQL Project
 A simple database project for managing library books, authors, borrowers, and loans using fundamental SQL operations.
+
 Project Overview
 
 This project demonstrates basic SQL skills including table creation, data insertion, and querying. It simulates a small library system where books can be tracked along with their availability and borrowing information.
@@ -36,9 +37,13 @@ Basic data retrieval operations
 Queries Implemented
 
 List all available books - Shows books with available copies > 0
+
 Show books published after 2010 - Filters books by publication year
+
 Count total books in library - Uses COUNT function for aggregate data
+
 Find borrowers who joined this year - Demonstrates date filtering with YEAR function
+
 
 Skills Demonstrated
 
@@ -52,7 +57,9 @@ Basic SQL syntax and best practices
 How to Use
 
 Run create table.sql to create the database structure
+
 Execute data insertion.sql to populate tables with sample data
+
 Use queries from queries.sql to test and explore the data
 
 Learning Focus
