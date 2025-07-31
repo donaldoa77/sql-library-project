@@ -14,8 +14,11 @@ Database Structure
 Tables Created:
 
 books - Store book information (title, author_id, ISBN, publication year, available copies)
+
 authors - Store author details (name, birth year, nationality)
+
 borrowers - Store library member information (name, email, phone, membership date)
+
 loans - Track borrowing records (book_id, borrower_id, loan date, return date)
 
 Files Description
