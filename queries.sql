@@ -1,4 +1,4 @@
-1. List all available books 
+-- List all available books 
 
 SELECT
   title
@@ -7,7 +7,7 @@ FROM
 WHERE
   available_copies > 0;
 
-2. Show books published after 2010
+-- Show books published after 2010
 
 SELECT
   title
@@ -16,14 +16,14 @@ FROM
 WHERE
   publication_year > 2010;
 
-3. Count total books in the library
+-- Count total books in the library
 
 SELECT
   COUNT(title)
 FROM
   books;
 
-4. Find borrowers who joined this year
+-- Find borrowers who joined this year
 
 SELECT
   name
